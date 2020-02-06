@@ -33,7 +33,7 @@ fn generate(len: u8) -> String {
 
 fn is_generated(out: usize, input: u8) -> bool {
     let o : u8 = out as u8;
-    return o == input;
+    o == input
 }
 
 fn main() {
